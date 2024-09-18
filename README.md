@@ -16,10 +16,12 @@ Buttons will be next to the item stats page to add or remove the item in the pri
 
 ### Copy to clipboard
 Clicking the buttons will copy its relative command to the clipboard. User input is still **needed** to paste the command to the bot.
-- Add to pricelist 
-  => Command: "!add item="+itemName+"&autoprice=false&group=pending&sell.keys=99999&buy.metal=0.11"
-  -> Description: Add the item but temporary set to manual pricing with the group=pending, item can be set to autoprice once the pricer retreive a price for the newly added item
+#### Add to pricelist  
+Command: "!add item="+itemName+"&autoprice=false&group=pending&sell.keys=99999&buy.metal=0.11"  
   
-- Delete from pricelist
-  => Command "!remove item="+itemName
-  -> Remove the item banking listing for the bot
+Description: Add the item but temporary set to manual pricing with the group=pending, item can be set to autoprice once the pricer retreive a price for the newly added item  
+
+#### Delete from pricelist  
+Command: "!remove item="+itemName  
+  
+Description: Remove the item banking listing for the bot  
